@@ -1,0 +1,24 @@
+# Node / JS
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Large assets (opcional: se você não quiser subir icons, descomente)
+# src/icons/

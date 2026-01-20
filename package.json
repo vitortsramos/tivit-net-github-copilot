@@ -1,0 +1,21 @@
+{
+  "name": "credit-card-brand-validator",
+  "version": "1.0.0",
+  "description": "A simple website that validates credit card brands and displays their icons based on user input.",
+  "main": "src/js/index.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "credit card",
+    "validation",
+    "javascript",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

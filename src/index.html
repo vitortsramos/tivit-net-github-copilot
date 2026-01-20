@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Bandeira - Cartão</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validador de Bandeira</h1>
+        <p class="subtitle">Digite o número do cartão para identificar a bandeira</p>
+
+        <div class="input-row">
+            <input type="text" id="creditCardInput" placeholder="Ex.: 4111 1111 1111 1111" autocomplete="off">
+            <button id="validateButton">Validar</button>
+        </div>
+
+        <table id="resultTable" class="result-table" aria-live="polite">
+            <tr>
+                <th>Número digitado:</th>
+                <td id="numberDisplay">—</td>
+            </tr>
+            <tr>
+                <th>Bandeira:</th>
+                <td class="brand-cell">
+                    <img id="brandIcon" src="" alt="" style="display:none" />
+                    <span id="brandText">—</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
