@@ -1,6 +1,4 @@
-# Desafio de conclusão - tivit-net-github-copilot
-
-# Credit Card Brand Validator
+# Desafio de conclusão - tivit-net-github-copilot - Credit Card Brand Validator
 
 Aplicação web simples que identifica a bandeira de um cartão a partir do número digitado e exibe o ícone correspondente. Feito com HTML, CSS e JavaScript (ES modules).
 
@@ -71,3 +69,4 @@ Coloque os arquivos de ícone em:
 - Outros emissores: consulte BINs de teste específicos conforme necessário
 - É possível gerar números através do site https://www.4devs.com.br/gerador_de_numero_cartao_credito para testar o validador de cartão.
 
+## Desafio Concluído!
